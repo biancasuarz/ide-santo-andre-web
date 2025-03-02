@@ -17,11 +17,13 @@ const Navbar: React.FC = () => {
 
         {/* Navigation */}
         <nav className="flex space-x-8 text-lg">
-          <a href="#" className="hover:underline">Home</a>
-          <a href="#" className="hover:underline">Sobre</a>
-          <a href="#" className="hover:underline">Seja Voluntário</a>
-          <a href="#" className="hover:underline">Igrejas</a>
-          <a href="#" className="hover:underline">Contato</a>
+          
+          <a href="./home" className="hover:underline"></a>
+          <a href="./home" className="hover:underline">Home</a>
+          <a href="./sobre" className="hover:underline">Sobre</a>
+          <a href="./sejavoluntario" className="hover:underline">Seja Voluntário</a>
+          <a href="./igrejas" className="hover:underline">Igrejas</a>
+          <a href="./contato" className="hover:underline">Contato</a>
         </nav>
       </div>
     </header>
