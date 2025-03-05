@@ -41,7 +41,7 @@ function Home() {
             }}
           >
             <img
-              src={ide}
+              src={ide} 
               alt="Imagem da Página Home"
               width="180px"
               className="rounded-full shadow-lg mt-6 object-cover"
