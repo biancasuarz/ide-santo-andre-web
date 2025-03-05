@@ -18,12 +18,18 @@ function SejaVoluntario() {
             alignItems: 'center',
           }}
         >
-          <h2 className="text-4xl font-bold text-emerald-700 mt-10">Seja Voluntário</h2>
+          <h2 className="text-4xl font-bold text-emerald-700 mt-10">Seja um agente de transformação</h2>
           <p className="text-lg text-primary-600 mt-4 text-center">
-            Ser voluntário no IDE Santo André é uma oportunidade única de impactar vidas e fazer a diferença
-            em nossa comunidade. Através do seu tempo e habilidades, você pode ajudar a transformar a vida de
-            famílias em situação de vulnerabilidade social.
+          Você sente o desejo de fazer a diferença? No IDE Santo André, sua disposição pode mudar vidas. Seja ajudando na organização de doações, em eventos, ou apoiando famílias e crianças, cada gesto é uma semente de amor que gera frutos eternos.
+
+          Como voluntário, você pode:
+
+          Auxiliar na distribuição de cestas básicas.
+          Participar de atividades com crianças e jovens.
+          Oferecer seu tempo para discipular ou apoiar moradores de rua.
+          Venha ser parte dessa missão. Juntos, podemos levar esperança, luz e o amor de Deus a quem mais precisa.
           </p>
+          
           <p className="text-lg text-primary-600 mt-4 text-center">
             Junte-se a nós! Se você possui um coração solidário e deseja colaborar com nossa missão, temos
             várias formas de voluntariado que podem se encaixar com seus interesses e habilidades.

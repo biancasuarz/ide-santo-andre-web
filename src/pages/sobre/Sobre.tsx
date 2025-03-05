@@ -1,3 +1,5 @@
+import pages from '../../assets/images/pages.png';
+
 function Sobre() {
   return (
       <>
@@ -17,18 +19,43 @@ function Sobre() {
                       alignItems: 'center',
                   }}
               >
-                  <h2 className="text-4xl font-bold text-emerald-700 mt-10">Sobre Nós</h2>
+                  <h2 className="text-4xl font-bold text-emerald-700 mt-10">Um chamado para amar e servir</h2>
                   <p className="text-lg text-primary mt-4 text-center">
-                      O IDE Santo André é um projeto cristão criado com a missão de unir igrejas de diferentes
-                      denominações para levar apoio e esperança às famílias em vulnerabilidade social. Nossa
-                      visão é transformar vidas por meio de ações de amor, solidariedade e compaixão. Acreditamos que
-                      juntos podemos construir uma sociedade mais justa e solidária.
+                  O IDE Santo André é mais do que um projeto, é um chamado para fazer a diferença. 
+                  Nosso propósito é reunir igrejas, voluntários e doadores de toda a cidade em um esforço
+                  coletivo para levar suporte e esperança a quem mais precisa.
+
+                  Acreditamos que cada gesto de amor pode transformar vidas. Por isso, nossa missão é ajudar
+                  famílias em situação de vulnerabilidade com cestas básicas, oferecer atividades para crianças 
+                  como reforço escolar e, futuramente, aulas de música, além de apoiar moradores em situação de rua.
+                  Queremos discipular pessoas e expandir o Reino de Deus, deixando um legado de cuidado e solidariedade
+                  em nossa cidade.
+
+                  No IDE Santo André, cada doação, cada esforço, e cada oração fazem parte de uma missão maior: 
+                  mudar o mundo, uma vida de cada vez.
                   </p>
+
                   <p className="text-lg text-primary mt-4 text-center">
                       Estamos comprometidos em agir com ética, transparência e responsabilidade. Se você deseja se
                       envolver conosco, seja como voluntário, doador ou parceiro, entre em contato e faça parte dessa
                       transformação!
-                  </p>
+                  </p><br></br>
+
+                  <div
+                    style={{
+                    width: '80vw',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    }}
+                >
+                    <img
+                    src={pages}
+                    alt="Imagem da Página Sobre"
+                    width="150px"
+                    className="rounded-full shadow-lg mt-4 object-cover"
+                    />
+                </div>
               </div>
           </div>
 

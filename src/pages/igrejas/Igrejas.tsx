@@ -17,9 +17,20 @@ function Igrejas() {
   return (
     <section className="w-full p-6 bg-mint-200 mt-10">
       <div className="text-center mb-8">
-        <h2 className="text-4xl font-bold text-emerald-700">Igrejas Parceiras</h2>
+        <h2 className="text-4xl font-bold text-emerald-700">Unindo forças para transformar nossa cidade</h2>
         <p className="text-lg text-primary-600 mt-4">
-          Conheça as igrejas parceiras que estão ao nosso lado transformando vidas.
+        O IDE Santo André acredita no poder da união entre igrejas para levar esperança a nossa comunidade. 
+        Convidamos igrejas de Santo André a se tornarem parceiras dessa obra, contribuindo com recursos, 
+        voluntários ou apoio espiritual.
+
+        Juntos, podemos:
+
+        Atender famílias em situação de vulnerabilidade.
+        Organizar atividades e eventos que impactem crianças e jovens.
+        Ajudar moradores em situação de rua com apoio e discipulado.
+        Sua igreja pode ser uma força ativa na transformação da cidade. Entre em contato e saiba como participar!
+
+        Conheça as igrejas parceiras que estão ao nosso lado transformando vidas.
         </p>
       </div>
 
