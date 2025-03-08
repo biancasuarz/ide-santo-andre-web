@@ -21,31 +21,34 @@ function Home() {
               alignItems: 'center',
             }}
           >
-            <h2 className="text-4xl font-bold text-emerald-700 mt-10">Transforme vidas com o IDE Santo André</h2>
-            <p className="text-lg text-gray-700 mt-4 text-center">
-            No coração de Santo André, nasce um movimento de amor, esperança e transformação. 
-            O IDE Santo André conecta igrejas, voluntários e doadores para levar ajuda a quem mais precisa.
-            Juntos, queremos impactar famílias vulneráveis, moradores de rua e crianças, oferecendo não apenas
-            auxílio material, mas também o amor e os valores que transformam vidas.
+            <h2 className="text-3xl font-bold text-emerald-700 mt-10">Transforme vidas com o IDE Santo André</h2><br />
 
-          Junte-se a nós nessa missão de expandir o Reino de Deus e ser luz na nossa comunidade. Faça parte dessa obra e ajude a mudar histórias!
-            </p><br></br>
-          </div>
+            <div
+              style={{
+                width: '80vw',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+              }}
+            >
+              <img
+                src={ide}
+                alt="Imagem da Página Home"
+                width="250px"
+                className="rounded-full shadow-lg mt-6 object-cover hover:opacity-90 transition-transform duration-300 ease-in-out hover:scale-105"
+              />
+            </div><br />
 
-          <div
-            style={{
-              width: '80vw',
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-            }}
-          >
-            <img
-              src={ide} 
-              alt="Imagem da Página Home"
-              width="180px"
-              className="rounded-full shadow-lg mt-6 object-cover"
-            />
+            <p className="text-lg text-gray-700 mt-4 text-justify leading-relaxed max-w-screen-lg mx-auto">
+              No coração de <span className="text-emerald-800">Santo André</span>, nasce um movimento de
+              <span className="text-emerald-800 font-bold"> amor</span>, <span className="text-emerald-800 font-bold">esperança </span>
+              e <span className="text-emerald-800 font-bold">transformação</span>.
+              O IDE Santo André conecta igrejas, voluntários e doadores para levar ajuda a quem mais precisa.
+              Juntos, queremos impactar <span className="text-emerald-800">famílias vulneráveis</span>,
+              <span className="text-emerald-800"> moradores de rua</span> e <span className="text-emerald-800">crianças</span>,
+              oferecendo não apenas auxílio material, mas também o <span className="italic">amor</span> e os
+              <span className="text-emerald-800"> valores</span> que transformam vidas.<br />
+            </p>
           </div>
         </div>
       </div>

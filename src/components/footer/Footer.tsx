@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
             <FaInstagram />
           </a>
           <a
-            href="https://www.linkedin.com/ideepregai"
+            href="https://www.linkedin.com/company/idesantoandre/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-2xl text-gray-600 hover:text-blue-400 transition-colors"

@@ -34,11 +34,10 @@ const Navbar: React.FC = () => {
 
         {/* Navigation */}
         <nav className={`lg:flex space-x-6 text-lg ${isMenuOpen ? "block" : "hidden"} lg:block`}>
-          <a href="./home" className="hover:text-rose-600">Home</a>
-          <a href="./sobre" className="hover:text-rose-600">Sobre</a>
-          <a href="./sejavoluntario" className="hover:text-rose-600">Seja Voluntário</a>
-          <a href="./igrejas" className="hover:text-rose-600">Igrejas</a>
-          <a href="./contato" className="hover:text-rose-600">Contato</a>
+          <a href="./home" className="hover:text-emerald-600">Home</a>
+          <a href="./sobre" className="hover:text-emerald-600">Sobre</a>
+          <a href="./sejavoluntario" className="hover:text-emerald-600">Seja Voluntário</a>
+          <a href="./contato" className="hover:text-emerald-600">Contato</a>
         </nav>
       </div>
     </header>

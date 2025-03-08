@@ -1,42 +1,61 @@
+import igrejas from '../../assets/images/igrejas.png';
+
 function SejaVoluntario() {
   return (
     <>
-      {/* Header */}
-      <div
-        style={{
-          width: '100vw',
-          display: 'flex',
-          justifyContent: 'center',
-        }}
-        className="bg-primary-100"
-      >
-        <div
-          style={{
-            width: '80vw',
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-          }}
-        >
-          <h2 className="text-4xl font-bold text-emerald-700 mt-10">Seja um agente de transformação</h2>
-          <p className="text-lg text-primary-600 mt-4 text-center">
-          Você sente o desejo de fazer a diferença? No IDE Santo André, sua disposição pode mudar vidas. Seja ajudando na organização de doações, em eventos, ou apoiando famílias e crianças, cada gesto é uma semente de amor que gera frutos eternos.
+      {/* Header Section */}
+      <section className="flex justify-center py-10">
+        <div className="w-4/5 flex flex-col items-center">
+          <h2 className="text-4xl font-bold text-emerald-700 mb-4 hover:scale-105 hover:opacity-90 transition-transform duration-300">
+            Seja um agente de Transformação
+          </h2>
 
-          Como voluntário, você pode:
+          <p className="text-lg text-primary text-center mb-8">
+            No <span className="text-emerald-800 font-semibold">IDE Santo André</span>, acreditamos que cada ação conta. <br />
+            Como voluntário, você será parte de um movimento de amor, compaixão e transformação.
+          </p>
 
-          Auxiliar na distribuição de cestas básicas.
-          Participar de atividades com crianças e jovens.
-          Oferecer seu tempo para discipular ou apoiar moradores de rua.
-          Venha ser parte dessa missão. Juntos, podemos levar esperança, luz e o amor de Deus a quem mais precisa.
-          </p>
-          
-          <p className="text-lg text-primary-600 mt-4 text-center">
-            Junte-se a nós! Se você possui um coração solidário e deseja colaborar com nossa missão, temos
-            várias formas de voluntariado que podem se encaixar com seus interesses e habilidades.
-          </p>
+          {/* Image */}
+          <div className="w-full max-w-7xl mb-8">
+            <img
+              src={igrejas}
+              alt="Imagem da Página Sobre"
+              className="w-full rounded-xl shadow-lg object-cover transform transition-all duration-300 ease-in-out hover:scale-105 hover:opacity-90"
+            />
+          </div>
+
+          <br />
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            {/* Card 1 */}
+            <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <h3 className="text-xl font-semibold text-emerald-700 mb-4 text-center">Auxilie na distribuição de cestas básicas</h3>
+              <p className="text-gray-700 text-center">
+                Contribua com seu tempo na entrega de alimentos para famílias em situação de vulnerabilidade. Uma ação simples que faz toda a diferença.
+              </p>
+            </div>
+
+            {/* Card 2 */}
+            <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <h3 className="text-xl font-semibold text-emerald-700 mb-4 text-center">Atividades com crianças e jovens</h3>
+              <p className="text-gray-700 text-center">
+                Participe de atividades educativas e recreativas que transformam a vida de crianças e adolescentes. Seu tempo pode mudar o futuro deles.
+              </p>
+            </div>
+
+            {/* Card 3 */}
+            <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <h3 className="text-xl font-semibold text-emerald-700 mb-4 text-center">Apoiar moradores de rua</h3>
+              <p className="text-gray-700 text-center">
+                Ofereça seu apoio a quem mais precisa. Com gestos simples de cuidado e atenção, podemos trazer dignidade e esperança para os moradores de rua.
+              </p>
+            </div>
+          </div>
+          <br />
         </div>
-      </div>
+      </section>
 
+      {/* Section Cards */}
       <section className="w-full p-6 bg-mint-200 mt-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 w-full">
           {/* Card 1 - Seja Voluntário */}

@@ -2,12 +2,16 @@ function Contato() {
   return (
     <>
       {/* Section Contato */}
-      <section className="w-full p-6 bg-mint-200 mt-10">
-        <div className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+      <section className="w-full p-6 bg-mint-50 mt-10">
+        <div className="max-w-3xl mx-auto bg-white p-10 rounded-xl shadow-2xl hover:shadow-3xl transition-shadow duration-300">
+          {/* Título da Seção */}
+          <h3 className="text-3xl font-semibold text-emerald-800 mb-8 text-center">
+            Fale Conosco
+          </h3>
+
           {/* Formulário de Contato */}
-          <h3 className="text-2xl font-semibold text-emerald-700 mb-4">Envie uma Mensagem</h3>
-          <form action="#" method="POST">
-            <div className="mb-6">
+          <form action="#" method="POST" className="space-y-6">
+            <div>
               <label htmlFor="name" className="block text-lg font-medium text-primary-700">
                 Nome
               </label>
@@ -16,11 +20,11 @@ function Contato() {
                 id="name"
                 name="name"
                 required
-                className="w-full p-3 mt-2 border border-primary-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500"
+                className="w-full p-4 mt-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 shadow-md hover:shadow-lg transition-shadow duration-200"
                 placeholder="Seu nome"
               />
             </div>
-            <div className="mb-6">
+            <div>
               <label htmlFor="email" className="block text-lg font-medium text-primary-700">
                 E-mail
               </label>
@@ -29,11 +33,11 @@ function Contato() {
                 id="email"
                 name="email"
                 required
-                className="w-full p-3 mt-2 border border-primary-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500"
+                className="w-full p-4 mt-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 shadow-md hover:shadow-lg transition-shadow duration-200"
                 placeholder="Seu e-mail"
               />
             </div>
-            <div className="mb-6">
+            <div>
               <label htmlFor="message" className="block text-lg font-medium text-primary-700">
                 Mensagem
               </label>
@@ -41,14 +45,14 @@ function Contato() {
                 id="message"
                 name="message"
                 required
-                rows={4}
-                className="w-full p-3 mt-2 border border-primary-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500"
+                rows={5}
+                className="w-full p-4 mt-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 shadow-md hover:shadow-lg transition-shadow duration-200"
                 placeholder="Sua mensagem"
               ></textarea>
             </div>
             <button
               type="submit"
-              className="w-full py-3 bg-emerald-700 text-white font-semibold rounded-lg hover:bg-primary-600 transition-colors"
+              className="w-full py-3 bg-emerald-700 text-white font-semibold rounded-lg hover:bg-emerald-600 transition-colors shadow-md hover:shadow-xl"
             >
               Enviar Mensagem
             </button>
