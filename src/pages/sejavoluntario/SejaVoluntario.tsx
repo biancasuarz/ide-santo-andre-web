@@ -18,7 +18,7 @@ function SejaVoluntario() {
           {/* Image */}
           <div className="w-full max-w-7xl mb-8">
             <img
-              src={igrejas}
+              src={igrejas} 
               alt="Imagem da Página Sobre"
               className="w-full rounded-xl shadow-lg object-cover transform transition-all duration-300 ease-in-out hover:scale-105 hover:opacity-90"
             />
