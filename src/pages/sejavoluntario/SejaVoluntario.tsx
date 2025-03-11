@@ -69,7 +69,7 @@ function SejaVoluntario() {
           {/* Card 2 - Nossa Missão */}
           <div className="bg-mint-50 p-6 rounded-lg shadow-lg max-w-xs mx-auto hover:scale-105 hover:shadow-2xl transition-transform duration-300">
             <h3 className="text-2xl font-semibold text-emerald-700 mb-2">Nossa Missão</h3>
-            <p className="text-gray-600">
+            <p className="text-gray-600"> 
               Unimos forças para levar esperança e apoio às famílias em vulnerabilidade, transformando vidas.
             </p>
           </div>
