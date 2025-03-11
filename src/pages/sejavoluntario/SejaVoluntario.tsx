@@ -71,7 +71,7 @@ function SejaVoluntario() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-emerald-800 mb-4">Áreas de Atuação</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">Descubra como você pode contribuir com seus talentos e tempo</p>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">Descubra como você pode contribuir com seus talentos e tempo.</p>
             <div className="w-24 h-1 bg-gradient-to-r from-emerald-500 to-teal-400 mx-auto mt-6"></div>
           </motion.div>
 
