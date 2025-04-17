@@ -1,4 +1,3 @@
-import React from 'react';
 import igrejas from '../../assets/images/igrejas.png';
 import { motion } from 'framer-motion';
 

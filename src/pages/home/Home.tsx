@@ -1,4 +1,3 @@
-import React from 'react';
 import ide from '../../assets/images/ide.jpg';
 import { FaHeart, FaHandHoldingHeart, FaPeopleCarry, FaMapMarkerAlt, FaArrowRight, FaRegLightbulb, FaUsers, FaHandsHelping, FaInfoCircle, FaPhoneAlt } from 'react-icons/fa';
 
