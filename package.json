@@ -2,7 +2,6 @@
   "name": "ideepregai",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://biancasuarz.github.io/ideepregai",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -170,9 +170,6 @@ function Home() {
                 <p className="text-gray-600 mb-4">
                   Entre em contato conosco e saiba como participar.
                 </p>
-                <a href="#" className="text-emerald-600 font-medium inline-flex items-center hover:text-emerald-700">
-                  Saiba mais <FaArrowRight className="ml-1 text-xs" />
-                </a>
               </div>
             </div>
           </div>
