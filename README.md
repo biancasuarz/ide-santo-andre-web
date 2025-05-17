@@ -11,7 +11,6 @@ Neste projeto, você encontrará diferentes formas de se envolver e fazer a dife
 - **Ações Voluntárias**: Envolva-se em atividades como:
   - Distribuição de cestas básicas
   - Atividades para crianças e jovens
-  - Apoio a moradores de rua
 - **Ajuda e Apoio**: Conheça mais sobre como você pode ajudar ou ser ajudado.
 
 ## Como Funciona
