@@ -3,7 +3,7 @@
 
 O **Seja Voluntário** é uma iniciativa do **IDE Santo André**, que busca reunir pessoas dispostas a transformar a vida de outras por meio de ações voluntárias. Nosso objetivo é incentivar a participação em atividades que ajudem aqueles que mais precisam, como a distribuição de alimentos, apoio a crianças e jovens, e muito mais.
 
-## O Que É
+## O Que é 
 
 Neste projeto, você encontrará diferentes formas de se envolver e fazer a diferença:
 
